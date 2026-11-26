@@ -1,0 +1,39 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Fabric_Dataflow_Gen2",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "DefaultDestination": {
+      "queryId": "9772b44a-40db-4054-b721-3f38abd22aba",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Merge": {
+      "queryId": "c4acc80b-dc7d-49d8-8ae7-1db229de0918",
+      "queryName": "Merge",
+      "loadEnabled": false
+    },
+    "Raw_DataAdventureWorks_Product_Categories": {
+      "queryId": "4cefc421-80f6-461a-8e74-3997418eda2a",
+      "queryName": "Raw_DataAdventureWorks_Product_Categories",
+      "loadEnabled": false
+    },
+    "Raw_DataProduct_Subcategories": {
+      "queryId": "dd98cc59-7d88-432a-bd38-ec72af29ac93",
+      "queryName": "Raw_DataProduct_Subcategories",
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"02f2bcd4-cdc0-4411-b9c6-6450e6f2d996\",\"DatasourceId\":\"1bdf9d4d-5f6b-426e-b7bc-5a184e19b9f7\"}"
+    }
+  ]
+}
